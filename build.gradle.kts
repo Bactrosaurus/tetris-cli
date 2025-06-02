@@ -34,7 +34,7 @@ kotlin {
     sourceSets {
         nativeMain.dependencies {
             implementation(libs.kotlinxSerializationJson)
-            implementation(libs.kotlinxCoroutines)
+            implementation(libs.kotlinxCoroutinesCore)
         }
     }
 }
