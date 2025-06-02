@@ -3,8 +3,8 @@ plugins {
     alias(libs.plugins.kotlinxSerialization)
 }
 
-group = "me.user"
-version = "1.0-SNAPSHOT"
+group = "de.daniel"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -34,6 +34,7 @@ kotlin {
     sourceSets {
         nativeMain.dependencies {
             implementation(libs.kotlinxSerializationJson)
+            implementation(libs.kotlinxCoroutines)
         }
     }
 }
